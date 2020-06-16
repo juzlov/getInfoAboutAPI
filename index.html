@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Введите версию продукта в формате IU-172.1909.2, чтобы узнать список изменений в этой версии</h3>
+    <input type="search" name="search-version-changes" id="search-version-changes" placeholder="IU-172.1909.2">
+    <span id="error-search-version-changes"></span>
+    <button class="button button_version-changes">Найти список изменений в версии</button>
+
+    <h3>Введите версию продукта в формате IU-172.1909.2, чтобы узнать доступные API в этой версии</h3>
+    <input type="search" name="search-version-apis" id="search-version-apis" placeholder="IU-172.1909.2">
+    <span id="error-search-version-apis"></span>
+    <button class="button button_search-version-apis">Найти список изменений в версии</button>
+    
+    <h3>Введите имя API, чтобы узнать версии, в которых она доступна</h3>
+    <input type="search" name="search-api" id="search-api" placeholder="DataProviderImpl">
+    <span id="error-search-api"></span>
+    <button class="button button_search-api">Искать по названию API</button>
+    
+    <div class="response-table">
+    </div>
+
+    <script type="module" src="./newTask.js"></script>
+</body>
+</html>

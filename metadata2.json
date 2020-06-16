@@ -1,0 +1,2116 @@
+{
+  "ideBuildNumber": "IU-202.5103.1",
+  "apiSignatureToEvents": [
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/MovePortModeImpl",
+        "<init>",
+        "(Lcom/intellij/openapi/graph/view/MovePortMode;La/a/fX;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-202.4357.23"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/javaee/ejb/model/xml/AccessTimeout"
+      ],
+      "events": [
+        "+::IU-202.4357.23"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/output/AbstractXmlWriterImpl",
+        "<init>",
+        "(La/h/a/a/g;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-145.2070.6",
+        "-::IU-162.74.16"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/YGFIOHandlerImpl",
+        "<init>",
+        "(La/d/q;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/option/ChildChangeReporterImpl",
+        "<init>",
+        "(La/h/cW;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-191.4212.41"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/remote/AbstractRemoteProcessHandler"
+      ],
+      "events": [
+        "-::IU-181.2784.17"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/jetbrains/ide/model/RdUsageTarget",
+        "<init>",
+        "(ILjava/lang/String;Lcom/jetbrains/ide/model/Icon;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-191.4212.41"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/editor/event/EditorEventMulticaster",
+        "addVisibleAreaListener",
+        "(Lcom/intellij/openapi/editor/event/VisibleAreaListener;Lcom/intellij/openapi/Disposable;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-193.2956.37"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/input/InputHandlerImpl",
+        "<init>",
+        "(Lb/g/a/c/A;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-171.4694.73",
+        "-::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/spring/boot/application/metadata/SpringBootApplicationMetaConfigKey$DeclarationResolveResult"
+      ],
+      "events": [
+        "+::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/lang/ant/config/execution/AntRunConfiguration$PropertiesTable",
+        "canDeleteElement",
+        "(Lcom/intellij/lang/ant/config/impl/BuildFileProperty;)Z",
+        ""
+      ],
+      "events": [
+        "+::IU-162.74.16"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/openapi/application/RuntimeInterruptedException"
+      ],
+      "events": [
+        "D:1|2017:IU-193.2956.37",
+        "ND::IU-193.2956.37"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/siyeh/ig/performance/StringConcatenationInLoopsInspection$IntroduceStringBuilderFix",
+        "<init>",
+        "(Lcom/intellij/psi/PsiVariable;Z)V",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.17"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/output/SerializationNotSupportedExceptionImpl",
+        "<init>",
+        "(La/k/b/a/r;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-181.2784.17"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/wip/protocol/WipProtocolReaderImpl$M67",
+        "<init>",
+        "(Lorg/jetbrains/io/JsonReaderEx;Ljava/lang/String;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-163.3094.26"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/io/NettyUtil",
+        "nioServerBootstrap",
+        "(Lio/netty/channel/EventLoopGroup;)Lio/netty/bootstrap/ServerBootstrap;",
+        ""
+      ],
+      "events": [
+        "-::IU-162.74.16",
+        "ND::IU-162.74.16"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/router/SnapOuterPortsToNodeBorderStageImpl",
+        "<init>",
+        "(La/f/l/B;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/OrderRendererImpl",
+        "<init>",
+        "(Lb/j/kX;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.3803.32"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/base/DataProviderImpl",
+        "<init>",
+        "(La/c/c;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-202.4357.23"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/option/ComponentOptionItemImpl",
+        "<init>",
+        "(Lb/a/w;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-182.711"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/psi/search/FileTypeIndex",
+        "processFiles",
+        "(Lcom/intellij/openapi/fileTypes/FileType;Lcom/intellij/util/Processor;Lcom/intellij/psi/search/GlobalSearchScope;)Z",
+        "(Lcom/intellij/openapi/fileTypes/FileType;Lcom/intellij/util/Processor<Lcom/intellij/openapi/vfs/VirtualFile;>;Lcom/intellij/psi/search/GlobalSearchScope;)Z"
+      ],
+      "events": [
+        "+::IU-163.3094.26"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/model/redshift/RedshiftArgument",
+        "getRoutine",
+        "()Lcom/intellij/database/model/redshift/RedshiftRoutine;",
+        ""
+      ],
+      "events": [
+        "+::IU-182.711"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/spring/boot/model/SpringBootModelConfigFileContributor",
+        "getFileType",
+        "()Lcom/intellij/openapi/fileTypes/FileType;",
+        ""
+      ],
+      "events": [
+        "+::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/FreeNodeLabelModelImpl$ModelParameterImpl",
+        "<init>",
+        "(Lb/i/W$a;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/module/SeriesParallelLayoutModuleImpl",
+        "<init>",
+        "(Lb/f/N;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.3803.32"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/zkm/bytecode/ClassData",
+        "getClassName",
+        "()Ljava/lang/String;",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3094.26"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/jetbrains/rdserver/ui/popup/RdBalloon"
+      ],
+      "events": [
+        "+::IU-191.4212.41"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/util/text/StringUtil",
+        "commonPrefixLength",
+        "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)I",
+        ""
+      ],
+      "events": [
+        "+::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/ObjectStringConverterImpl",
+        "<init>",
+        "(Lb/g/aa;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.3803.32"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/model/impl/MysqlImplModel$Collation",
+        "getModel",
+        "()Lcom/intellij/database/model/impl/MysqlImplModel;",
+        ""
+      ],
+      "events": [
+        "-::IU-182.711"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/cdi/utils/CdiInjectionUtils",
+        "filterVetoedBeans",
+        "(Ljava/util/Collection;Lcom/intellij/openapi/module/Module;)Ljava/util/Collection;",
+        "(Ljava/util/Collection<+Lcom/intellij/cdi/beans/CdiBeanDescriptor<*>;>;Lcom/intellij/openapi/module/Module;)Ljava/util/Collection<Lcom/intellij/cdi/beans/CdiBeanDescriptor<*>;>;"
+      ],
+      "events": [
+        "+::IU-202.4357.23"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/genealogy/FamilyTreeLayouterImpl",
+        "<init>",
+        "(Lb/i/d/a;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-182.711"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/application/options/codeStyle/properties/ForceBracesAccessor",
+        "parseString",
+        "(Ljava/lang/String;)Ljava/lang/Integer;",
+        ""
+      ],
+      "events": [
+        "+::IU-191.4212.41"
+      ]
+    },
+    {
+      "signature": [
+        "field",
+        "com/intellij/psi/codeStyle/CodeStyleSettings",
+        "INSERT_OVERRIDE_ANNOTATION"
+      ],
+      "events": [
+        "D:0|:IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/lang/typescript/tsconfig/TypeScriptConfigServiceImpl$CachedConfigsProvider",
+        "computeInReadAction",
+        "()Lcom/intellij/psi/util/CachedValueProvider$Result;",
+        "()Lcom/intellij/psi/util/CachedValueProvider$Result<Ljava/util/List<Lcom/intellij/openapi/vfs/VirtualFile;>;>;"
+      ],
+      "events": [
+        "+::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/option/ConstraintManagerImpl$ConditionImpl",
+        "<init>",
+        "(Lb/i/a8$c;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-172.4574.19"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/javaee/run/configuration/ServerModelEx",
+        "onConfigurationCopied",
+        "()V",
+        ""
+      ],
+      "events": [
+        "+::IU-182.711",
+        "+::IU-183.2153.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/seriesparallel/EdgeLayoutDescriptorImpl",
+        "<init>",
+        "(Lb/e/h/t;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.3803.32"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/seam/utils/SeamCommonUtils",
+        "addXmlDefinedFactoryContextVariables",
+        "(Lcom/intellij/openapi/module/Module;Ljava/util/Set;)V",
+        "(Lcom/intellij/openapi/module/Module;Ljava/util/Set<Lcom/intellij/seam/utils/beans/ContextVariable;>;)V"
+      ],
+      "events": [
+        "+::IU-181.2784.17"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/concurrency/ConcurrentHashMap",
+        "newKeySet",
+        "()Lcom/intellij/concurrency/ConcurrentHashMap$KeySetView;",
+        "<K:Ljava/lang/Object;>()Lcom/intellij/concurrency/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;"
+      ],
+      "events": [
+        "+::IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/sql/dialects/mysql/MysqlDmlParsing",
+        "limit_clause",
+        "(Lcom/intellij/lang/PsiBuilder;I)Z",
+        ""
+      ],
+      "events": [
+        "-::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/schemaEditor/model/DeObject",
+        "getEditedObject",
+        "()Lcom/intellij/database/model/DasObject;",
+        ""
+      ],
+      "events": [
+        "+::IU-183.2153.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/vfs/newvfs/events/VFileContentChangeEvent",
+        "getOldLength",
+        "()J",
+        ""
+      ],
+      "events": [
+        "+::IU-191.4212.41"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/wip/protocol/debugger/GetBacktraceResult",
+        "getAsyncStackTrace",
+        "()Lorg/jetbrains/wip/protocol/runtime/StackTraceValue;",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3094.26"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/router/OrganicEdgeRouterImpl",
+        "<init>",
+        "(La/h/j/bb;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/incremental/IntValueHolderImpl",
+        "<init>",
+        "(Lb/j/k/a/aK;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-171.4694.73",
+        "-::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/javascript/JSFileReference",
+        "getDefaultResolveContextsForBind",
+        "(Lcom/intellij/psi/impl/source/resolve/reference/impl/providers/FileReferenceSet;Lcom/intellij/psi/PsiElement;)Ljava/util/Collection;",
+        "(Lcom/intellij/psi/impl/source/resolve/reference/impl/providers/FileReferenceSet;Lcom/intellij/psi/PsiElement;)Ljava/util/Collection<Lcom/intellij/psi/PsiFileSystemItem;>;"
+      ],
+      "events": [
+        "+::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/freemarker/psi/FtlQualifiedReference",
+        "isMacroClosingName",
+        "()Z",
+        ""
+      ],
+      "events": [
+        "+::IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/ide/plugins/newui/PluginLogoInfo"
+      ],
+      "events": [
+        "+::IU-183.2153.8",
+        "-::IU-191.4212.41"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/spring/el/completion/SpringELKeywordCompletionContributor"
+      ],
+      "events": [
+        "+::IU-162.74.16"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/wip/protocol/target/TargetKt",
+        "AttachToTarget",
+        "(Ljava/lang/CharSequence;Ljava/lang/Boolean;)Lorg/jetbrains/wip/protocol/WipRequest;",
+        "(Ljava/lang/CharSequence;Ljava/lang/Boolean;)Lorg/jetbrains/wip/protocol/WipRequest<Lorg/jetbrains/wip/protocol/target/AttachToTargetResult;>;"
+      ],
+      "events": [
+        "+::IU-201.3803.32"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/lang/typescript/compiler/languageService/TypeScriptServerServiceImpl",
+        "isMainFileContext",
+        "()Z",
+        ""
+      ],
+      "events": [
+        "+::IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/plugins/groovy/lang/resolve/processors/inference/GroovyInferenceSessionBuilder",
+        "<init>",
+        "(Lorg/jetbrains/plugins/groovy/lang/psi/api/statements/expressions/GrReferenceExpression;Lorg/jetbrains/plugins/groovy/lang/resolve/processors/inference/MethodCandidate;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-191.4212.41"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/ui/layout/migLayout/MigLayoutBuilder",
+        "setResetCallbacks",
+        "(Lcom/intellij/util/containers/MultiMap;)V",
+        "(Lcom/intellij/util/containers/MultiMap<Ljavax/swing/JComponent;Lkotlin/jvm/functions/Function0<Lkotlin/Unit;>;>;)V"
+      ],
+      "events": [
+        "-::IU-202.4357.23"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/workspace/api/pstorage/PSerializer$TypeInfo",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;[B)V",
+        ""
+      ],
+      "events": [
+        "+::IU-202.4357.23",
+        "-::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/siyeh/ig/classlayout/ClassWithOnlyPrivateConstructorsInspectionBase"
+      ],
+      "events": [
+        "-::IU-183.2153.8"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/thymeleaf/providers/contexts/ThymeleafTemplateParametersProvider"
+      ],
+      "events": [
+        "+::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/console/evaluation/EvaluationResultFetcher",
+        "getRowCount",
+        "()J",
+        ""
+      ],
+      "events": [
+        "-::IU-182.711"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/module/GraphTransformerModuleImpl",
+        "<init>",
+        "(La/h/p;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-183.2153.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/input/ParseEventImpl",
+        "<init>",
+        "(Lb/e/a/d/y;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.3803.32"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/workspace/api/pstorage/containers/ImmutablePositiveIntIntMultiMap$RoMultiResultIntSequence",
+        "<init>",
+        "([II)V",
+        ""
+      ],
+      "events": [
+        "+::IU-202.4357.23"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/console/evaluation/EvaluationResultFetcher",
+        "getRowCount",
+        "()I",
+        ""
+      ],
+      "events": [
+        "+::IU-182.711"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/lang/javascript/refactoring/HighlightingUtils",
+        "highlightOccurrences",
+        "(Lcom/intellij/openapi/project/Project;Lcom/intellij/openapi/editor/Editor;Lcom/intellij/lang/javascript/refactoring/HighlightingUtils$PsiElementsOccurrenceInfoSource;)Ljava/util/ArrayList;",
+        "(Lcom/intellij/openapi/project/Project;Lcom/intellij/openapi/editor/Editor;Lcom/intellij/lang/javascript/refactoring/HighlightingUtils$PsiElementsOccurrenceInfoSource;)Ljava/util/ArrayList<Lcom/intellij/openapi/editor/markup/RangeHighlighter;>;"
+      ],
+      "events": [
+        "+::IU-191.4212.41"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/dialects/snowflake/model/SFlakeMatView",
+        "setClusterBy",
+        "(Ljava/lang/String;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-193.2956.37"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/openapi/keymap/impl/BundledKeymapProvider"
+      ],
+      "events": [
+        "D:0|:IU-193.2956.37",
+        "-::IU-202.4357.23",
+        "ND::IU-202.4357.23"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "org/jetbrains/plugins/github/api/requests/GithubCreateIssueRequest"
+      ],
+      "events": [
+        "+::IU-191.4212.41",
+        "-::IU-193.2956.37"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/PortImpl",
+        "<init>",
+        "(La/a/kL;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/vcs/commit/AbstractCommitWorkflow$Companion",
+        "getCommitHandlers",
+        "(Lcom/intellij/openapi/vcs/CheckinProjectPanel;Lcom/intellij/openapi/vcs/changes/CommitContext;)Ljava/util/List;",
+        "(Lcom/intellij/openapi/vcs/CheckinProjectPanel;Lcom/intellij/openapi/vcs/changes/CommitContext;)Ljava/util/List<Lcom/intellij/openapi/vcs/checkin/CheckinHandler;>;"
+      ],
+      "events": [
+        "-::IU-193.2956.37"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/dialects/oracle/model/OraImplModel$Package$Exceptions",
+        "instantiate",
+        "()Lcom/intellij/database/dialects/oracle/model/OraImplModel$Exception;",
+        ""
+      ],
+      "events": [
+        "-::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/MedianLinearSegmentDrawerImpl",
+        "<init>",
+        "(Lb/h/c/n;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/junit4/JUnit4TestListener$TestEvent",
+        "setFinished",
+        "(Z)V",
+        ""
+      ],
+      "events": [
+        "+::IU-162.74.16"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/roots/impl/ProjectFileIndexImpl",
+        "getSourceRootForFile",
+        "(Lcom/intellij/openapi/vfs/VirtualFile;Lcom/intellij/openapi/roots/impl/DirectoryInfo;)Lcom/intellij/openapi/vfs/VirtualFile;",
+        ""
+      ],
+      "events": [
+        "+::IU-182.711"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/DefaultEdgeLayoutImpl",
+        "<init>",
+        "(La/c/bJ;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/github/hypfvieh/util/ConverterUtil"
+      ],
+      "events": [
+        "-::IU-193.2956.37"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/graph2d/EdgeLabelDeserializerImpl$PreferredPlacementDescriptorDeserializerImpl",
+        "<init>",
+        "(La/e/a/b/aa;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/planar/PlanarityTestWrapperImpl",
+        "<init>",
+        "(La/g/b/n;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-172.4574.19",
+        "-::IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/project/Project",
+        "getDisposedOrDisposeInProgress",
+        "()Lcom/intellij/openapi/util/Condition;",
+        "()Lcom/intellij/openapi/util/Condition<*>;"
+      ],
+      "events": [
+        "-::IU-201.3803.32",
+        "NE::IU-201.3803.32"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/input/ParseEventImpl",
+        "<init>",
+        "(Lb/g/b/a/n;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/actions/QueryActionBase",
+        "invokeImpl",
+        "(Lcom/intellij/database/console/JdbcConsole;Lcom/intellij/database/script/ScriptModel;)V",
+        "(Lcom/intellij/database/console/JdbcConsole;Lcom/intellij/database/script/ScriptModel<*>;)V"
+      ],
+      "events": [
+        "-::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/gml/LineParserImpl",
+        "<init>",
+        "(La/e/b/i;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-183.2153.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/ui/jcef/JBCefClient$HandlerCallable",
+        "handle",
+        "(Ljava/lang/Object;)Ljava/lang/Object;",
+        "(TT;)TR;"
+      ],
+      "events": [
+        "+::IU-201.3803.32"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/model/impl/MysqlImplModel$Routine",
+        "getSchema",
+        "()Lcom/intellij/database/model/impl/MysqlImplModel$Schema;",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3094.26"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/refactoring/chainCall/OptionalChainCallExtractor"
+      ],
+      "events": [
+        "+::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/diff/DiffRequest",
+        "setBottomComponentFactory",
+        "(Lcom/intellij/openapi/util/Factory;)V",
+        "(Lcom/intellij/openapi/util/Factory<Ljavax/swing/JComponent;>;)V"
+      ],
+      "events": [
+        "-::IU-183.2153.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/command/impl/UndoableGroup",
+        "isTemporary",
+        "()Z",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.17"
+      ]
+    },
+    {
+      "signature": [
+        "field",
+        "com/intellij/openapi/vcs/ExternallyAddedFilesProcessorImplKt",
+        "ASKED_ADD_EXTERNAL_FILES_PROPERTY"
+      ],
+      "events": [
+        "+::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/sh/psi/ShThenClause"
+      ],
+      "events": [
+        "+::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/datagrid/Grid",
+        "setFilterComponent",
+        "(Ljava/awt/Component;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/NodeLabelSpaceDrawerImpl",
+        "<init>",
+        "(La/b/j/f;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/jetbrains/plugins/webDeployment/config/FileTransferConfig",
+        "equalsNonAuthData",
+        "(Lcom/jetbrains/plugins/webDeployment/config/FileTransferConfig;)Z",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3094.26"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/output/TypeBasedSerializerImpl",
+        "<init>",
+        "(Lb/e/a/a/e;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-183.2153.8"
+      ]
+    },
+    {
+      "signature": [
+        "field",
+        "com/intellij/lang/javascript/psi/types/JSTypeImpl",
+        "RECORD_TYPE_CACHE"
+      ],
+      "events": [
+        "-::IU-193.2956.37"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/gwt/shell/remoteUi/generated/RemoteMessageProto$Message$Request$ViewerRequest$Builder",
+        "clear",
+        "()Lcom/intellij/gwt/shell/remoteUi/generated/RemoteMessageProto$Message$Request$ViewerRequest$Builder;",
+        ""
+      ],
+      "events": [
+        "-::IU-181.2784.17"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/wip/protocol/WipProtocolReaderImpl$M6q",
+        "setEnumerable",
+        "(Z)V",
+        ""
+      ],
+      "events": [
+        "+::IU-183.2153.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/externalSystem/model/DataNode",
+        "checkIsSerializable",
+        "()V",
+        ""
+      ],
+      "events": [
+        "-::IU-192.5728.98"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/model/impl/OracleImplModel$Table",
+        "getChecks",
+        "()Lcom/intellij/database/model/impl/OracleImplModel$Table$Checks;",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3094.26"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/graph2d/WriteNodeRealizerHandlerImpl",
+        "<init>",
+        "(La/d/b/a/g;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/idea/svn/branchConfig/CreateBranchOrTagDialog",
+        "<init>",
+        "(Lcom/intellij/openapi/project/Project;ZLjava/io/File;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-182.711"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/lang/javascript/frameworks/modules/JSExactParentDirectoryReference"
+      ],
+      "events": [
+        "+::IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "field",
+        "com/intellij/openapi/vcs/ex/LineStatusTrackerBase",
+        "myDocument"
+      ],
+      "events": [
+        "-::IU-181.2784.17"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/view/MoveSelectionMode",
+        "findAdditionalElements",
+        "(Lcom/intellij/openapi/graph/base/NodeList;Lcom/intellij/openapi/graph/view/BendList;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/PortConstraintKeysImpl",
+        "<init>",
+        "(La/k/C;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.15529.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/gml/EdgeLabelGraphicsEncoderImpl",
+        "<init>",
+        "(La/j/b/B;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/CanonicMultiStageLayouterImpl",
+        "<init>",
+        "(Lb/f/b2;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/workspace/api/pstorage/StorageIndexes"
+      ],
+      "events": [
+        "+::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/idea/svn/history/SvnLazyPropertyContentRevision",
+        "<init>",
+        "(Lorg/jetbrains/idea/svn/SvnVcs;Lcom/intellij/openapi/vcs/FilePath;Lcom/intellij/openapi/vcs/history/VcsRevisionNumber;Lorg/jetbrains/idea/svn/api/Target;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/EdgeLabelImpl",
+        "<init>",
+        "(La/a/a8;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "org/jetbrains/wip/protocol/WipProtocolReaderImpl$M1t",
+        "setAsyncSettlementStack",
+        "(Lorg/jetbrains/wip/protocol/console/AsyncStackTraceValue;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-163.3094.26"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/jetbrains/recommenders/java/commons/names/QualifiedMethodName",
+        "copy",
+        "(Ljava/lang/String;Lcom/jetbrains/recommenders/java/commons/names/ITypeName;)Lcom/jetbrains/recommenders/java/commons/names/QualifiedMethodName;",
+        ""
+      ],
+      "events": [
+        "-::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "field",
+        "com/intellij/openapi/vcs/changes/actions/diff/SimpleLocalChangeListDiffViewer$TrackerData",
+        "ranges"
+      ],
+      "events": [
+        "+::IU-181.2784.17"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/FilterImpl",
+        "<init>",
+        "(La/h/J;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3094.26",
+        "-::IU-163.3512.7",
+        "+::IU-181.2784.17",
+        "-::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/roots/ui/configuration/projectRoot/ModuleStructureConfigurable$MergingComparator",
+        "<init>",
+        "(Ljava/util/List;)V",
+        "(Ljava/util/List<Ljava/util/Comparator<TT;>;>;)V"
+      ],
+      "events": [
+        "-::IU-173.2099.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/psi/codeStyle/NameUtil",
+        "buildMatcher",
+        "(Ljava/lang/String;ZIZZ)Lcom/intellij/util/text/Matcher;",
+        ""
+      ],
+      "events": [
+        "+::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/LayoutGraphWriterImpl",
+        "<init>",
+        "(La/f/bB;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/YLabelImpl$LayoutImpl",
+        "<init>",
+        "(Lb/b/i$j;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-172.4574.19"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/gml/LabelGraphicsEncoderImpl",
+        "<init>",
+        "(Lb/g/b/d;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-171.4694.73",
+        "-::IU-172.1909.2"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/CopiedLayoutGraphImpl",
+        "<init>",
+        "(Lb/j/p;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-171.4694.73"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/graph2d/PostprocessorOutputHandlerImpl",
+        "<init>",
+        "(La/j/a/b/u;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-145.2070.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/ReflectionStringConverterImpl",
+        "<init>",
+        "(La/d/N;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/BooleanValueImpl",
+        "<init>",
+        "(La/i/G;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-202.5103.1"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/execution/testframework/sm/runner/events/BaseStartedNodeEvent",
+        "getParentNodeId",
+        "(Ljetbrains/buildServer/messages/serviceMessages/MessageWithAttributes;)Ljava/lang/String;",
+        ""
+      ],
+      "events": [
+        "+::IU-162.74.16"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/BoundedQueueImpl",
+        "<init>",
+        "(La/k/bK;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/util/JDOMUtil",
+        "getTreeHash",
+        "(Lorg/jdom/Element;Z)I",
+        ""
+      ],
+      "events": [
+        "-::IU-162.74.16"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/Value2DImpl",
+        "<init>",
+        "(La/h/m;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3512.7"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/base/DataMapImpl",
+        "<init>",
+        "(La/d/c;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/GivenLayersLayererImpl",
+        "<init>",
+        "(La/b/j/M;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/BoundedStackImpl",
+        "<init>",
+        "(La/k/E;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-145.2070.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/NodePortImpl$SelectionChangeHandlerImpl",
+        "<init>",
+        "(La/f/z$h;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3512.7"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/router/PatchRouterStageImpl",
+        "<init>",
+        "(Lb/d/l/Q;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-172.4574.19"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/orthogonal/OrthogonalLayouterImpl",
+        "<init>",
+        "(La/g/g/i;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-162.74.16"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/base/GraphImpl",
+        "<init>",
+        "(Lb/g/x;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-172.4574.19"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/hierarchy/HierarchyTreeModelImpl",
+        "<init>",
+        "(La/a/a/x;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/incremental/AspectRatioComponentLayererImpl",
+        "<init>",
+        "(La/j/j/a/aW;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3512.7"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/LineTypeImpl",
+        "<init>",
+        "(La/j/aR;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-172.4574.19"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/LayoutStageImpl",
+        "<init>",
+        "(La/e/aT;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-145.2070.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/graph2d/EdgeLabelSerializerImpl",
+        "<init>",
+        "(La/e/a/c/aL;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/PortCandidateSetImpl$CandidateMatcherImpl",
+        "<init>",
+        "(La/k/G$d;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.15529.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/data/types/DataTypeConversion$Builder",
+        "firstColumnIdx",
+        "()I",
+        ""
+      ],
+      "events": [
+        "+::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/option/TableEditorFactoryImpl",
+        "<init>",
+        "(La/g/cu;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/lang/javascript/FlowJSContextType"
+      ],
+      "events": [
+        "+::IU-163.3512.7"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/DiscreteNodeLabelModelImpl",
+        "<init>",
+        "(Lb/f/L;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.7846.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/output/WriteEventListenerAdapterImpl",
+        "<init>",
+        "(La/a/a/b/C;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/incremental/DrawingDistanceCalculatorImpl",
+        "<init>",
+        "(La/k/l/a/ak;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/module/io/IOHandlerModuleImpl",
+        "<init>",
+        "(La/h/a/a;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/option/PropertiesIOHandlerImpl",
+        "<init>",
+        "(La/d/C;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-172.4574.19"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/module/PortConstraintModuleImpl",
+        "<init>",
+        "(La/c/z;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-145.2070.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/anim/AnimationFactoryImpl",
+        "<init>",
+        "(La/g/b;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-145.2070.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/incremental/DefaultPortAllocatorImpl",
+        "<init>",
+        "(La/k/l/a/aT;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/MapsImpl$HighPerformanceBoolMapImpl",
+        "<init>",
+        "(Lb/c/U$a;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-172.4574.19"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/view/ui/DriverClasspathPanel$ArtifactsPopupStep",
+        "onChosen",
+        "(Lcom/intellij/database/dataSource/DatabaseArtifactList$Artifact;Z)Lcom/intellij/openapi/ui/popup/PopupStep;",
+        "(Lcom/intellij/database/dataSource/DatabaseArtifactList$Artifact;Z)Lcom/intellij/openapi/ui/popup/PopupStep<*>;"
+      ],
+      "events": [
+        "+::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/planar/IntDSPImpl",
+        "<init>",
+        "(La/k/b/i;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/planar/EdgeOrderImpl",
+        "<init>",
+        "(La/f/a/L;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-201.8253"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/planar/PlanarityTestImpl",
+        "<init>",
+        "(Lb/k/c/k;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-171.4694.73"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/database/model/basic/BasicElement",
+        "identity",
+        "()Ljava/lang/String;",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3512.7"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/module/io/IOHandlerModuleImpl",
+        "<init>",
+        "(La/a/a/a;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-145.2070.6",
+        "+::IU-163.3512.7"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/geom/AffineLineImpl",
+        "<init>",
+        "(La/f/c;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-163.3512.7"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/hierarchy/GroupNodeRealizerImpl",
+        "<init>",
+        "(La/c/a/c;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/planar/PlanarityTestWrapperImpl",
+        "<init>",
+        "(La/d/l/f;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-145.2070.6"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "org/jetbrains/org/objectweb/asm/commons/RemappingSignatureAdapter"
+      ],
+      "events": [
+        "D:0|:IU-145.2070.6"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/incremental/IntValueHolderImpl",
+        "<init>",
+        "(Lb/k/j/a/y;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-171.4694.73"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/base/NodeMapImpl",
+        "<init>",
+        "(Lb/g/C;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-172.4574.19"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/tree/GenericTreeLayouterImpl",
+        "<init>",
+        "(La/j/c/j;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.3512.7"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/hierarchy/GroupNodePainterImpl$GroupStateEditorImpl",
+        "<init>",
+        "(La/a/a/c$b;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-163.15529.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/labeling/SALabelingImpl",
+        "<init>",
+        "(Lb/h/q/i;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/router/polyline/AbstractSegmentInfoImpl",
+        "<init>",
+        "(La/k/e/a/ap;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/graph2d/NodeLabelDeserializerImpl",
+        "<init>",
+        "(La/d/b/c/Y;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.15529.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/base/YListImpl$ListCursorImplImpl",
+        "<init>",
+        "(Lb/d/t$a;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/gml/DefaultEncoderFactoryImpl",
+        "<init>",
+        "(Lb/g/a/z;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/NodePortImpl$PainterImpl",
+        "<init>",
+        "(La/c/L$f;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-162.2946"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/io/graphml/output/SerializationHandlerImpl",
+        "<init>",
+        "(La/i/a/b/C;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-163.15529.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/Graph2DCopyFactoryImpl",
+        "<init>",
+        "(La/c/Y;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/GraphPartitionManagerImpl",
+        "<init>",
+        "(Lb/c/A;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/LabelLayoutDataImpl",
+        "<init>",
+        "(Lb/k/B;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-171.4694.73"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/util/YVersionImpl",
+        "<init>",
+        "(Lb/j/r;)V",
+        ""
+      ],
+      "events": [
+        "-::IU-171.4694.73"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/PartitionLayouterImpl$InterEdgeRouterImpl",
+        "<init>",
+        "(Lb/h/aD$i;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-181.2784.28"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/hierarchic/TreeDrawerImpl$HierarchicTreePlacerImpl",
+        "<init>",
+        "(Lb/j/k/I$b;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-171.4694.73"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/multipage/EdgeInfoImpl",
+        "<init>",
+        "(La/k/i/e;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.15529.8"
+      ]
+    },
+    {
+      "signature": [
+        "class",
+        "com/intellij/util/StreamExtKt$sam$Predicate$i$730e00c4"
+      ],
+      "events": [
+        "+::IU-163.15529.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/layout/planar/SimplePlanarInformationImpl$SimpleEdgeInfoImpl",
+        "<init>",
+        "(La/k/f/z$b;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.15529.8"
+      ]
+    },
+    {
+      "signature": [
+        "method",
+        "com/intellij/openapi/graph/impl/view/GenericEdgeRealizerImpl$FactoryImpl",
+        "<init>",
+        "(La/b/aC$k;)V",
+        ""
+      ],
+      "events": [
+        "+::IU-163.15529.8"
+      ]
+    }
+  ]
+}
