@@ -19,3 +19,5 @@ npm run dev
 
 В процессе разработки:
 - Поиск всех доступных методов в любой указанной версии
+
+(Demo)[https://juzlov.github.io/getInfoAboutAPI/]
