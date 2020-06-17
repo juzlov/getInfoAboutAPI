@@ -11,6 +11,7 @@ getDataFromJSON()
 .then((result) => {
   if (result) {
     eventBlocks = result.apiSignatureToEvents;
+    getNewArray();
   }
 })
 
@@ -18,16 +19,20 @@ getDataFromJSON()
 // объект в который записываются обработанные данные из json
 let newData = [];
 
-function SignToEvent(sign, event, shortName) {
-  this.sign = sign;
-  this.event = event;
-  this.shortName = shortName;
+class SignToEvent {
+  constructor (sign, event, shortName, trueIndex) {
+    this.sign = sign;
+    this.event = event;
+    this.shortName = shortName;
+    this.trueIndex = trueIndex;
+  }
 }
 
 // преобразование входящих данных в более удобных массив с подписями разделенными точками, короткого имени
 function getNewArray() {
 
   for (let i = 0; i<eventBlocks.length; i++) {
+    
     let versionEvents = eventBlocks[i].events;
     let versionSignature = '';
 
@@ -65,9 +70,7 @@ function getNewArray() {
       versionSignature = type + '.' + name + '.' + descriptor;
     }
     
-    let eventSign = new SignToEvent(versionSignature, versionEvents, shortName);
-    
-    newData[i] = eventSign;
+    newData[i] = new SignToEvent(versionSignature, versionEvents, shortName, i);
   }
 }
 
@@ -154,10 +157,19 @@ function eventDecriptor(events, name, versionForSearch) {
   }
 }
 
+// функция вывода доступных методов API в конкретной версии
+function eventShortDecriptor (name, version) {
+  const responseTable = document.querySelector('.response-table');
+  const responseField = document.createElement('p');
+  responseField.classList.add('response');
+
+  responseField.textContent = name + ' available in version ' + version;
+  responseTable.appendChild(responseField);
+}
+
 
 // функция поиска по имени API
 function searchByEventName(name) {
-  getNewArray();
   const responseTable = document.querySelector('.response-table');
   responseTable.innerHTML = '';
 
@@ -263,36 +275,105 @@ function ResponseEvent(events, trueIndex) {
   this.trueIndex = trueIndex;
 }
 
+
 function searchByAnyVersion(version) {
-  getNewArray();
+
   const responseTable = document.querySelector('.response-table');
   responseTable.innerHTML = '';
 
   responeObject = [];
 
   const shortVers = shortVersion(version);
-  compareVersions(shortVers, '193.2956.37');
 
-  let ver = '';
+  let finalObject = [];
 
-  // получение объекта responseObject с изменениями в более старых версиях
+  // получение объекта finalObject с изменениями в других версиях
   for (let i=0; i<newData.length; i++) {
-    newData[i].event.forEach(function(item) {
-      ver = shortVersion(item);
+    
+    // если кол-во эвентов меньше одного, то сначала проверяем такие методы
+    if (newData[i].event.length === 1) {
+      
+      // проверка если версия, с которой сравниваем, более старая или такая же
+      if (compareVersions(shortVers, shortVersion(newData[i].event[0])) === 1 || compareVersions(shortVers, shortVersion(newData[i].event[0])) === 0) {
+        
+        //если начинается с + то добавляем в выходной объект
+        if (newData[i].event[0].startsWith('+')) {
+          finalObject.push(newData[i]);
+        } 
+        
+        //если начинается с - то пропускаем. Уберу эту часть после того, как разберемся с D0, D1, ND, NE
+        else if (newData[i].event[0].startsWith('-')) {
 
-      if (compareVersions(shortVers, ver) === 1 || compareVersions(shortVers, ver) === 0) {
-        let newEvent = new ResponseEvent(ver, i);
-        responeObject.push(newEvent);
+        }
+        
+        // тут будет проверка на другие условия, типа на D0, D1, ND, NE
+        else {
+          console.log('1 event, older or equal version with other condition', newData[i], newData[i].event[0].startsWith('+'));
+        }
+      }
+      
+      // проверка если версия, с которой сравниваем, более новая
+      else if (compareVersions(shortVers, shortVersion(newData[i].event[0])) === -1){
+        
+        //если начинается с - то добавляем в выходной объект, т.к. метод работает с первой версии
+        if (newData[i].event[0].startsWith('-')) {
+          finalObject.push(newData[i]);
+        } 
+        
+        //если начинается с + то пропускаем. Уберу эту часть после того, как разберемся с D0, D1, ND, NE
+        else if (newData[i].event[0].startsWith('+')) {
+          
+        }
+        // тут будет проверка на другие условия, типа на D0, D1, ND, NE
+        else {
+          console.log('1 event, newer version with other condition', newData[i]);
+        }
       } 
+    } 
 
-    });
+    // если кол-во эвентов больше одного, то проверяем такие методы
+    else {
+      
+      // для каждого эвента внутри объекта сравниваем версии с искомой
+      newData[i].event.forEach(function(item) {
+
+        // проверка если версия, с которой сравниваем, более старая или такая же
+        if (compareVersions(shortVers, shortVersion(item)) === 1 || compareVersions(shortVers, shortVersion(item)) === 0) {
+
+          // если начинается с + то добавляем в выходной объект
+          if (item.startsWith('+')) {
+            finalObject.push(newData[i]);
+          } 
+          
+          // однако, если начинается с - то удаляем этот метод из готового объекта(сравнение по Trueindex который записывается при начальном парсе json). Возможно будет проблема в будущем, надо тестировать.
+          else if (item.startsWith('-')) {
+            for (let index = 0; index < finalObject.length; index++) {
+              if (newData[i].event === finalObject[index].event) {
+                finalObject.splice(index, 1);
+              }
+            }
+          }
+          
+          // дальнейшая проверка вызывает вопросы, нужна помощь
+          else {
+            console.log('more than 1 event, version is older with other condition', newData[i]);
+          }
+        }
+        
+        // дальнейшая проверка вызывает вопросы, нужна помощь
+        else {
+          console.log('more than 1 event, version newer', newData[i]);
+        }
+      })
+    }
   }
 
-  // получили объект responseObject, в нем записаны events с более старыми версиями и индекс события из главного объекта. В дальнешем можно используя этот индекс достать информацию о нужных нам эвентах.
-  console.log(responeObject);
+  // каждый объект отправляем на отрисовку
+  finalObject.forEach(function(item) {
+    eventShortDecriptor(item.shortName, shortVers)
+  })
+  console.log(finalObject);
 } 
-
-
 
 
 // вызов поиска изменений в конкретной версии
