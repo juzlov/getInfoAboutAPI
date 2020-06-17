@@ -78,15 +78,13 @@ function getNewArray() {
 let shortName = '';
 
 function getShortName(name) {
-  
+
   function splitString(stringToSplit, separator) {
     const arrayOfStrings = stringToSplit.split(separator);
-    shortName = arrayOfStrings[arrayOfStrings.length-1];
+    return arrayOfStrings[arrayOfStrings.length-1];
   }
 
-  const slash = '/';
-  
-  splitString(name, slash);
+  shortName = splitString(name, '/');
 }
 
 
@@ -214,16 +212,11 @@ function searchByVersion(version) {
 
 // функция сокращения значения версии(без названия продукта)
 function shortVersion(version) {
-  let strings = [];
-  let separator = '-';
- 
-  strings.push(version.split(separator))
-
-  if (strings[0].length === 2) {
-    return strings[0][1];
-  } else {
-    return strings[0][2];
-  }
+  let index = version.lastIndexOf('-');
+    if (index > 0) {
+        return version.substring(index + 1)
+    }
+    return version
 }
 
 
